@@ -1,0 +1,52 @@
+ </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome to Your Health Dashboard</h2> 
+         Language Change --> 
+        <div class="section">
+            <label for="language">Select Language:</label>
+            <select id="language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                <option value="spanish">Spanish</option>
+            </select>
+        </div>
+
+        <!-- Water Goal Tracker -->
+        <div class="section">
+            <h3>Water Goal Tracker</h3>
+            <label for="waterGoal">Set Daily Water Goal (Liters):</label>
+            <input type="number" id="waterGoal" min="1" max="10">
+            <button class="btn" onclick="saveWaterGoal()">Save</button>
+        </div>
+
+        <!-- Doctor Appointment -->
+        <div class="section">
+            <h3>Book a Doctor Appointment</h3>
+            <label for="appointmentDate">Select Date:</label>
+            <input type="date" id="appointmentDate">
+            <button class="btn" onclick="bookAppointment()">Book</button>
+        </div>
+
+        <!-- Feedback Form -->
+          <div class="section">
+               <h3>Feedback Form</h3>
+            <textarea id="feedback" placeholder="Enter your feedback here..."></textarea>
+            <button class="btn" onclick="submitFeedback()">Submit</button> -->
+        </div> -->
+
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> --> 
